@@ -7,7 +7,7 @@ categories: JavaScript
 **[github笔记下载地址](https://github.com/codeOflI/LearningNotes/blob/master/JSNote/JavaScript/JavaScript.md)**
 [TOC]
 
-## JavaScript  
+## JavaScript基本概念  
 
 JavaScript负责页面中的的行为。  
 
@@ -194,7 +194,7 @@ JS中的字符串需要使用引号引起来双引号或单引号都行
  该类型的值只有一个 undefined  
  使用typeof检查一个Undefined类型的值时，会返回"undefined"  
 
-#### 引用数据类型	  
+#### 6.引用数据类型	  
  Object 对象  
 
 ### 类型转换  
@@ -620,7 +620,7 @@ for(;;){
 **对象是一种复合数据类型，在对象中可以保存多个不同数据类型的属性**  
 使用typeof检查一个对象时，会返回object  
 
-### 对象的分类：  
+### 对象的分类
 
 1.内建对象  
 	- 由ES标准中定义的对象，在任何的ES的实现中都可以使用  
@@ -712,6 +712,7 @@ var obj = {
 使用typeof检查一个函数时会返回function  
 创建函数  
  函数声明 
+
 ```javascript
 function 函数名([形参1,形参2...形参N]){  
     语句...  
@@ -801,6 +802,41 @@ this（调用函数的那个对象）
 	3.以构造函数的形式调用时，this是新建的那个对象  
 	4.使用call和apply调用时，this是指定的那个对象  
 	5.在全局作用域中this代表window  
+
+#### 回调函数
+
+<https://chinese.freecodecamp.org/news/javascript-callback-functions/>
+
+一个普通函数，可以传入数据，用相同的方法对不同的数据进行处理；而回调函数相当于在函数中传入一个算法，用不同的算法对相同的数据进行处理。
+
+```
+function doSomethingAsync(callback) {
+  setTimeout(() => {
+    try {
+      // 假设在这里发生了一个错误
+      throw new Error("Something went wrong!");
+    } catch (err) {
+      // 捕捉错误并将其传递给回调函数
+      callback(err);
+    }
+  }, 1000);
+}
+
+// 定义回调函数（一个算法）
+function errorCallback(err) {
+  console.error("Error:", err.message);
+}
+
+// 定义下一个回调函数（另一个算法）
+function logCallback(err) {
+  console.log("Error:", err.message);
+}
+
+doSomethingAsync(errorCallback);
+doSomethingAsync(logCallback);
+```
+
+经过以上的调用，我们成功地延迟了errorCallback（）和logCallback（）函数的执行，而且是在只有抛出错误的情况下才会运行，因为这两个函数为同步函数，top level的函数，如果不放在异步web api中调用，直接调用的话，是不会达到延迟运行的效果的。
 
 ### 作用域  
 
@@ -2643,5 +2679,4 @@ copy() {
 var num = 123;
 alert(num.toString().length);
 ```
-
 

@@ -1,5 +1,7 @@
 # ES6
 
+[TOC]
+
  [菜鸟 ES6 教程](https://www.runoob.com/w3cnote/es6-tutorial.html)
 
 [ES6 入门教程](https://es6.ruanyifeng.com/)
@@ -1432,12 +1434,6 @@ str.at(-1) // "o"
 
 该方法来自数组添加的`at()`方法，目前还是一个第三阶段的提案，可以参考《数组》一章的介绍。
 
-## 5箭头函数
-
-### 基本用法
-
-ES6 允许使用“箭头”（`=>`）定义函数。
-
 # other
 
 ## ...运算符
@@ -1576,70 +1572,30 @@ console.log(Math.max(...arr));
 
 ### 2. 箭头函数（Arrow Functions）
 
-ES6 中，箭头函数就是函数的一种简写形式，使用括号包裹参数，跟随一个 =>，紧接着是函数体：
+ES6 允许使用“箭头”（`=>`）定义函数。为什么叫Arrow Function？因为它的定义用的就是一个箭头：
 
-```
-var getPrice = function() {
-  return 4.55;
-};
- 
-// Implementation with Arrow Function
-var getPrice = () => 4.55;
-```
+- 如果函数返回的是一个表达式，那么可省略brackets{}和return 关键字。 注意所以一般bracket和return都是在一起出现的。箭头函数肯定是返回点东西的。只是有的时候省略了而已。
 
-需要注意的是，上面例子中的 getPrice 箭头函数采用了简洁函数体，它不需要 return 语句，下面这个例子使用的是正常函数体：
+- 如果函数内部有多个语句，不是一个表达式，那么花括号会允许我们在函数中编写多个语句，但是我们需要显式地 return 来返回一些内容。
 
-```
-let arr = ['apple', 'banana', 'orange'];
- 
-let breakfast = arr.map(fruit => {
-  return fruit + 's';
-});
- 
-console.log(breakfast); // apples bananas oranges
-```
+- 如果函数**只有一个参数**，那么可省略小括号 args => expression
 
-当然，箭头函数不仅仅是让代码变得简洁，函数中 this 总是绑定总是指向对象自身。具体可以看看下面几个例子：
+- 无参数且内部有**多个语句**的函数一般表示为 () =>{return }
 
-```
-function Person() {
-  this.age = 0;
- 
-  setInterval(function growUp() {
-    // 在非严格模式下，growUp() 函数的 this 指向 window 对象
-    this.age++;
-  }, 1000);
-}
-var person = new Person();
-```
-
-我们经常需要使用一个变量来保存 this，然后在 growUp 函数中引用：
-
-```
-function Person() {
-  var self = this;
-  self.age = 0;
- 
-  setInterval(function growUp() {
-    self.age++;
-  }, 1000);
-}
-```
-
-而使用箭头函数可以省却这个麻烦：
-
-```
-function Person(){
-  this.age = 0;
- 
-  setInterval(() => {
-    // |this| 指向 person 对象
-    this.age++;
-  }, 1000);
-}
- 
-var person = new Person();
-```
+  ```js
+  （1）eg
+  # 标准形式，创建匿名函数，赋值给变量hello
+  let hello = function() {
+      return "Hello World!";
+  }
+  # 一个表达式，省略brackets{}和return 关键字
+  let hello = () => "Hello World!";
+  
+  （2）eg
+  let hello = (val) => "Hello " + val;
+  # 有一个参数时可省略小括号
+  let hello = val => "Hello " + val;
+  ```
 
 ### 3. 函数参数默认值
 
