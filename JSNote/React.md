@@ -14,6 +14,7 @@
 # 2 React的定义
 React的定义：用于==构建用户界面==的==JavaScript库==。
 **关键字**：
+
 1. **构建用户界面**:说明React专注于视图的构建，既不是一个请求库，也不是一个打包工具，而是主要提供UI层面的解决方案。
 2. **JavaScript库**：这说明React并不是一个框架，并不能解决项目中的所有问题，为了在项目中使用它，需要结合其他的库，例如Redux/React-router等来协助提供完整的解决方案。在这些周边生态的配合下才能组合成一个框架
 > 换句话来说，React所做的有三步
@@ -102,7 +103,12 @@ class Button extends React. Component {
 
 1. 创建虚拟DOM的两种方式
 
-   - 纯JS方式（一般不用,过于繁琐）
+   - 纯JS方式（不用,过于繁琐）。当我们引入了react核心库，就有React对象。就像document.createElement 创建真实dom，react.createElement 创建虚拟dom。 如果标签内容中再有标签，就会造成嵌套。
+
+     ```
+     const VDOM = React.createElement('h1',{id:'title'},'Hello React');
+     ```
+
    - JSX方式（简单方便，最终由babel翻译成js的形式，与用js写的结果一样）
 
 2. 虚拟DOM和真实DOM
@@ -125,17 +131,17 @@ class Button extends React. Component {
    >
    >1. 本质是Object类型的对象（一般对象）
    >2. 虚拟DOM比较“轻”，真实DOM比较“重”，因为虚拟DOM是React内部在用，无需真实DOM上那么多的属性
-   >3. 虚拟DOM对象最终都会被React转换为真实DOM，呈现在页面上
+   >3. 虚拟DOM对象最终都会被React转换为真实DOM，呈现在页面上。 将虚拟dom映射到真实dom的容器上。
 
 ## 4.3 JSX
 
 > 链接：[JSX基本语法规则](https://www.runoob.com/react/react-jsx.html)
 
->1. 全称: JavaScript XML
+>1. 全称: JavaScript XML， 目的就一个，更加简单地创建虚拟DOM。
 >
 >2. react定义的一种类似于XML的JS扩展语法: JS + XML，本质上还是JavaScript
 >
->3. 是**React.createElement(component, props, ...children)**方法的语法糖
+>3. 是**React.createElement(component, props, ...children)**方法的语法糖，就是一种更加便捷的方式。
 >
 >4. 作用：用来简化创建虚拟DOM
 >
@@ -151,11 +157,11 @@ class Button extends React. Component {
 >
 >  - 标签首字母
 >
->    ​    	（1）若小写字母开头，则将该标签转为HTML中同名元素，若HTML中无该标签对应的同名元素，则报错。
+>    ​    	（1）若小写字母开头，则将该标签转为HTML中同名元素，若HTML中无该标签对应的同名元素，则console报错。
 >
->    ​		 （2）若大写字母开头，则react就去渲染对用的组件，若组件没有定义，则报错
+>    ​		 （2）若大写字母开头，则react就去渲染对用的组件，若组件没有定义，则console报错。
 >
->  - 标签中的==js表达式==必须用{ }包含
+>  - Jsx标签中的js表达式必须用{ }包含
 >
 >    > 一定要区分：【JS语句（代码）】与【js表达式】
 >    >
@@ -177,22 +183,20 @@ class Button extends React. Component {
 >    >    - for(){}
 >    >    - switch(){case:xxx}
 >
->  - 注释需要写在花括号{}中
->
 >  - 样式的类名指定不要写class，要写className
 >
->  - 内联样式要用style={{key:value}}的形式写第一个{}表示里面是一个js表达式，第二个{}表示里面是一个键值对，里面要写小驼峰的形式， 比如font-size要写成fontSize
+>  - 内联样式要用style={{key:value}}的形式写：外面的{}表示里面是一个js表达式，里面的{}表示里面是一个键值对对象，多个单词组成的里面要写小驼峰的形式， 比如font-size要写成fontSize
 >
 >    ><span style={{color:'#e0e0e0', fontSize:18} }> myData</span>
 >
->  - 虚拟DOM只能有一个根标签，有多个标签时，可用一个div包起来
+>  - 虚拟DOM只能有一个根标签，有多个标签并列时，可用一个div包起来
 >
 >  - 标签必须闭合
 >
->8.   babel.js的作用
+> 8.   babel.js的作用
 >
->  - 浏览器不能直接解析JSX代码, 需要babel转译为纯JS的代码才能运行
->  - 只要用了JSX，都要加上type="text/babel", 声明需要babel来处理
+> - 浏览器不能直接解析JSX代码, 需要babel转译为纯JS的代码才能运行
+> - 只要用了JSX，都要加上type="text/babel", 声明需要babel来处理
 
 ## 4.4 模块与组件，模块化与组件化的理解
 
