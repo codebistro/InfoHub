@@ -807,7 +807,7 @@ this（调用函数的那个对象）
 
 <https://chinese.freecodecamp.org/news/javascript-callback-functions/>
 
-一个普通函数，可以传入数据，用相同的方法对不同的数据进行处理；而回调函数相当于在函数中传入一个算法，用不同的算法对相同的数据进行处理。
+一个普通函数，可以传入数据，用相同的方法对不同的数据进行处理；而回调函数相当于在函数中传入一个算法（函数），用不同的算法对相同的数据进行处理。
 
 ```
 function doSomethingAsync(callback) {
@@ -836,7 +836,7 @@ doSomethingAsync(errorCallback);
 doSomethingAsync(logCallback);
 ```
 
-经过以上的调用，我们成功地延迟了errorCallback（）和logCallback（）函数的执行，而且是在只有抛出错误的情况下才会运行，因为这两个函数为同步函数，top level的函数，如果不放在异步web api中调用，直接调用的话，是不会达到延迟运行的效果的。
+经过以上的调用，我们成功地延迟了errorCallback（）和logCallback（）函数的执行，而且是在只有抛出错误的情况下才会运行，因为这两个函数为同步函数，top level的函数，也是hoisted function，如果不放在异步web api中调用，直接调用的话，是不会达到延迟运行的效果的。
 
 ### 作用域  
 

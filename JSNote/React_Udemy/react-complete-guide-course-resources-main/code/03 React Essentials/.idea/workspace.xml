@@ -2,199 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94370fba-2741-45a8-bf8c-6f9983bd5a8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../React.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/01-Hello/htllo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/01-Hello/jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/01-Hello/jsxtext.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/01-Hello/虚拟DOM的两个方式.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/02-组件/函数式组件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/02-组件/我是你爹.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/02-组件/类式组件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/02-组件/组件套用.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/02-组件/表单组件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/03-state/state.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/03-state/state更新.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/03-state/state状态提升.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/03-state/state简化.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/04-props/props.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/04-props/props限制 简化 函数.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/04-props/props限制 简化.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/04-props/props限制.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/05-ref/API.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/05-ref/回调形式.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/05-ref/字符串形式.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/06-react的事件处理/事件处理.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/07-表单数据/受控组件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/07-表单数据/非受控组件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/08-高阶函数/高级函数.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/09-组件的生命周期/getSnapshotBeforeUpdate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/09-组件的生命周期/生命周期.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/09-组件的生命周期/生命周期初体验.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/09-组件的生命周期/高版本的新生命周期.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/10-DOM的Diffing算法/01-验证Diffing算法.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-0 react默认的文件/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-10src嵌套路由/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-10src嵌套路由/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-10src嵌套路由/components/MyNavLink/myNavLink.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-10src嵌套路由/components/about/about.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-10src嵌套路由/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-10src嵌套路由/pages/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-10src嵌套路由/pages/home/home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-10src嵌套路由/pages/home/message/message.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-10src嵌套路由/pages/home/news/news.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-1第一个多组件程序/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-1第一个多组件程序/component/hello/hello.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-1第一个多组件程序/component/hello/hello.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-1第一个多组件程序/component/test/test.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-1第一个多组件程序/component/welcom/welcom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-1第一个多组件程序/component/welcom/welcom.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-1第一个多组件程序/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/component/footer/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/component/footer/footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/component/header/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/component/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/component/item/item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/component/item/item.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/component/list/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/component/list/list.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-2 todoList/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-3 配置代理/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-3 配置代理/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-3 配置代理/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-3 配置代理/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-3 配置代理/src/setupProxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/public/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/src/header/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/src/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/src/list/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/src/list/list.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-4 github请求案例 axios/src/setupProxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/src/header/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/src/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/src/list/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/src/list/list.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/public/src/setupProxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/src/header/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/src/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/src/list/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/src/list/list.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-5 github请求案例 pusub/src/setupProxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/public/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/src/header/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/src/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/src/list/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/src/list/list.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-6 github请求案例 fetch/src/setupProxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-7 src_router_MyNavLink/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-7 src_router_MyNavLink/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-7 src_router_MyNavLink/components/MyNavLink/myNavLink.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-7 src_router_MyNavLink/components/about/about.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-7 src_router_MyNavLink/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-7 src_router_MyNavLink/pages/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-7 src_router_MyNavLink/pages/home/home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-8src路由样式丢失/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-8src路由样式丢失/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-8src路由样式丢失/components/MyNavLink/myNavLink.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-8src路由样式丢失/components/about/about.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-8src路由样式丢失/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-8src路由样式丢失/pages/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-8src路由样式丢失/pages/home/home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-9src精准匹配以及Redirect/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-9src精准匹配以及Redirect/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-9src精准匹配以及Redirect/components/MyNavLink/myNavLink.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-9src精准匹配以及Redirect/components/about/about.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-9src精准匹配以及Redirect/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-9src精准匹配以及Redirect/pages/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/11-9src精准匹配以及Redirect/pages/home/home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/public/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/src/components/MyNavLink/myNavLink.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/src/components/about/about.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/src/pages/header/header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/src/pages/home/home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/src/pages/home/message/message.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/11-脚手架/hello/src/pages/home/news/news.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/React-js/17.0/babel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/React-js/17.0/prop-types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/React-js/17.0/react-dom.development17.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/React-js/17.0/react.development17.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/React-js/babel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/React-js/prop-types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/React-js/react-dom.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/React-js/react.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/React.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/promise.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611196030416.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611211670211.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611490156766.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611495051999.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611495597978.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611567917101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611568004558.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611568192158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611568250881.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611651795885.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611800406864.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611800988496.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611801750141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611803687193.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611816095069.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611816150630.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611817630266.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611818262317.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1611820194124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1612316916900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1612317786643.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/1612317880916.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/BeforeGender.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/RouterDef.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/RouterSetDef.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React/react/addObject.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../React扩展.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Redux.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../React_Guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../React_Guide.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04 Essentials Deep Dive" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -225,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698662101327</updated>
-      <workItem from="1698662102393" duration="5807000" />
+      <workItem from="1698662102393" duration="7042000" />
     </task>
     <servers />
   </component>
@@ -233,9 +42,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1698723827880">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1698962270339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/-877.1082.1920.1040/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1698723827880" />
+    <state x="740" y="274" key="FileChooserDialogImpl/-877.1082.1920.1040/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1698962270339" />
   </component>
 </project>

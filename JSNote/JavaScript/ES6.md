@@ -203,7 +203,7 @@ var getGlobal = function () {
 
 # 3变量的解构赋值
 
-## 数组的解构赋值
+## 数组的解构赋值destructing
 
 ### 基本用法
 
@@ -1434,7 +1434,7 @@ str.at(-1) // "o"
 
 该方法来自数组添加的`at()`方法，目前还是一个第三阶段的提案，可以参考《数组》一章的介绍。
 
-# other
+# Spread Operator
 
 ## ...运算符
 
@@ -1442,9 +1442,7 @@ str.at(-1) // "o"
 
 ## ...运算符可用于浅拷贝
 
-- 深拷贝
-
-
+- 深拷贝 deep copy
 
 ```bash
 let obj1={name:'Jacl'}
@@ -1455,8 +1453,6 @@ obj2//{name: "Jacl", age: 12}
 
 用Object.assign(obj)实现深拷贝
 
-
-
 ```jsx
 let obj1={name:'Jacl'}
 let obj2=Object.assign( obj1)
@@ -1464,9 +1460,7 @@ obj1["age"]=12
 obj2//{name: "Jacl", age: 12}
 ```
 
-- 浅拷贝
-
-
+- 浅拷贝 shallow copy， 生成一个新的对象。不和原来的对象引用一个地址
 
 ```bash
 let obj1={name:'Jacl'}
@@ -1476,8 +1470,6 @@ obj2//{name: "Jacl"}
 ```
 
 当然，我们也可以在浅拷贝的同时修改所获对象的属性
-
-
 
 ```bash
 let obj1={name:'Jacl'}
@@ -1572,15 +1564,15 @@ console.log(Math.max(...arr));
 
 ### 2. 箭头函数（Arrow Functions）
 
-ES6 允许使用“箭头”（`=>`）定义函数。为什么叫Arrow Function？因为它的定义用的就是一个箭头：
+ES6 允许使用“箭头”（`=>`）定义函数。为什么叫Arrow Function？因为它的定义用的就是一个箭头： 可**省略3样**
 
-- 如果函数返回的是一个表达式，那么可省略curly braces{}和return 关键字。 注意所以一般curly braces和return都是在一起出现的。箭头函数肯定是返回点东西的。只是有的时候省略了而已。
+- 如果函数返回的是一个表达式，那么可**省略curly braces{}和return 关键字**。 注意所以一般curly braces和return都是在一起出现的。箭头函数肯定是返回点东西的。只是有的时候省略了而已。有的时候如果明确返回的内容，也可以省略return
 
 - 如果函数内部有多个语句，不是一个表达式，那么花括号会允许我们在函数中编写多个语句，但是我们需要显式地 return 来返回一些内容。
 
-- 如果函数**只有一个参数**，那么可省略小括号 args => expression
+- 如果函数**只有一个参数**，那么可**省略小括号** args => expression
 
-- 无参数且内部有**多个语句**的函数一般表示为 () =>{return }
+- 无参数且内部有**多个语句**的函数一般表示为 **() =>{return }**
 
   ```js
   （1）eg
@@ -1588,7 +1580,7 @@ ES6 允许使用“箭头”（`=>`）定义函数。为什么叫Arrow Function�
   let hello = function() {
       return "Hello World!";
   }
-  # 一个表达式，省略brackets{}和return 关键字
+  # 一个表达式，省略curly braces{}和return 关键字
   let hello = () => "Hello World!";
   
   （2）eg
@@ -1610,7 +1602,7 @@ getFinalPrice(500); // 850
 
 Spread / Rest 操作符指的是 ...，具体是 Spread 还是 Rest 需要看上下文语境。
 
-当被用于迭代器中时，它是一个 Spread 操作符：
+当被用于迭代器中时，它是一个 Spread 操作符： 相当于复制了一个对象和新的数组，不使用和改变原来的数组和对象。
 
 ```
 function foo(x,y,z) {
@@ -1621,7 +1613,7 @@ let arr = [1,2,3];
 foo(...arr); // 1 2 3
 ```
 
-当被用于函数传参时，是一个 Rest 操作符：
+当被用于函数传参时，是一个 Rest 操作符：收集所有剩余的参数到一个数组当中
 
 ```
 function foo(...args) {
